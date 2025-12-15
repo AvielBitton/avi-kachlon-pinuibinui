@@ -222,7 +222,7 @@ export default function Header() {
             ))}
             <button
               onClick={() => handleNavClick('/', 'contact')}
-              className="block w-full mt-4 text-center px-4 py-3 bg-primary-600 text-white rounded-lg font-medium"
+              className="block w-full mt-4 text-center px-4 py-3 bg-primary-600 hover:bg-primary-500 text-white rounded-lg font-medium transition-colors"
             >
               ייעוץ ראשוני
             </button>

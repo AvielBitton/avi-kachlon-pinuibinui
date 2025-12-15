@@ -159,7 +159,7 @@ function ProjectCard({ project }: { project: Project }) {
   return (
     <Link
       to={`/projects/${project.slug}`}
-      className="group block bg-surface-900 rounded-2xl overflow-hidden border border-surface-800 hover:border-primary-500/30 transition-all"
+      className="group block bg-surface-900 rounded-2xl overflow-hidden border border-surface-800 hover:border-primary-500/30 hover:shadow-lg hover:shadow-primary-500/5 transition-all"
     >
       {/* Image */}
       <div className="aspect-[16/10] relative overflow-hidden">

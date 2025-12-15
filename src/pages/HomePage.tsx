@@ -171,7 +171,7 @@ function ServicesSection() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="group p-6 rounded-2xl bg-surface-900/50 border border-surface-800 hover:border-primary-500/30 transition-all hover:bg-surface-900"
+              className="group p-6 rounded-2xl bg-surface-900/50 border border-surface-800 hover:border-primary-500/30 hover:shadow-lg hover:shadow-primary-500/5 transition-all hover:bg-surface-900"
             >
               <div className="w-12 h-12 rounded-xl bg-primary-500/10 flex items-center justify-center mb-4 group-hover:bg-primary-500/20 transition-colors">
                 <service.icon className="w-6 h-6 text-primary-400" />
