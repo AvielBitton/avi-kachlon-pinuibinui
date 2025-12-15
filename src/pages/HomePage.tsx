@@ -41,8 +41,7 @@ function HeroSection() {
         </h1>
 
         <p className="text-lg sm:text-xl text-surface-300 max-w-3xl mx-auto leading-relaxed mb-12">
-          ייצוג וליווי מלא לבעלי דירות בפרויקטי פינוי־בינוי — מהמגע הראשון עם היזם ועד קבלת המפתח.
-          המשרד מספק ליווי מקצועי, צמוד ושקוף, עם ניסיון רב בפרויקטים בכל רחבי הארץ.
+          ייצוג וליווי מלא לבעלי דירות בפרויקטי פינוי־בינוי — מגיבוש המתחם והסמכת נציגויות, בחירת יזם ובעלי תפקידים ועד קבלת המפתח. המשרד מספק ליווי מקצועי, צמוד ושקוף, עם ניסיון רב בפרויקטים בכל רחבי הארץ.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -60,22 +59,6 @@ function HeroSection() {
             צפייה בפרויקטים
             <ArrowLeftIcon className="w-5 h-5" />
           </Link>
-        </div>
-
-        {/* Stats */}
-        <div className="mt-20 grid grid-cols-3 gap-8 max-w-2xl mx-auto">
-          <div className="text-center">
-            <div className="text-3xl sm:text-4xl font-bold text-primary-400 mb-1">50+</div>
-            <div className="text-sm text-surface-400">פרויקטים</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl sm:text-4xl font-bold text-primary-400 mb-1">1,000+</div>
-            <div className="text-sm text-surface-400">דיירים מיוצגים</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl sm:text-4xl font-bold text-primary-400 mb-1">15+</div>
-            <div className="text-sm text-surface-400">שנות ניסיון</div>
-          </div>
         </div>
       </div>
 
@@ -116,7 +99,7 @@ function AboutSection() {
               <span className="text-primary-400">לכל דייר ודייר</span>
             </h2>
             <p className="text-surface-300 text-lg leading-relaxed mb-6">
-              אני מלווה בעלי דירות בפרויקטי פינוי־בינוי, בודק את ההסכמים, מנהל משא ומתן מול היזמים, ומנגיש לדיירים את כל המידע בשפה פשוטה וברורה.
+              המשרד מלווה בעלי דירות בפרויקטי פינוי־בינוי, בודק את ההסכמים, מנהל משא ומתן מול היזמים, ומנגיש לדיירים את כל המידע בשפה פשוטה וברורה.
             </p>
             <p className="text-surface-300 text-lg leading-relaxed mb-8">
               המטרה: להבטיח שהדיירים מקבלים את מלוא הזכויות, את הביטחונות הנכונים ואת התמורות הטובות ביותר, תוך שמירה על הוגנות ויעילות.
