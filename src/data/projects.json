@@ -1,140 +1,24 @@
 [
   {
-    "id": "proj-1",
-    "slug": "מתחם-זבוטינסקי-חשמונאים-לוי-לאן-רמת-גן",
-    "name": "מתחם ז'בוטינסקי-חשמונאים-לוי-לאן | רמת גן",
-    "city": "רמת גן",
-    "address": "מתחם ז'בוטינסקי-חשמונאים-לוי-לאן",
-    "category": "פינוי בינוי",
-    "status": "בתכנון",
-    "apartments_before": 276,
-    "apartments_after": 1275,
-    "short_description": "פרויקט פינוי בינוי גדול במרכז רמת גן, הכולל מספר בניינים ומאות יחידות דיור.",
-    "raw_details_text": null,
-    "images": [
-      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/רמת-גן-פינוי-בינוי.jpg"
-    ],
-    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%96%d7%91%d7%95%d7%98%d7%99%d7%a0%d7%a1%d7%a7%d7%99-%d7%97%d7%a9%d7%9e%d7%95%d7%a0%d7%90%d7%99%d7%9d-%d7%9c%d7%95%d7%99-%d7%9c%d7%90%d7%9f-%d7%91%d7%a8%d7%9e%d7%aa-%d7%92/"
-  },
-  {
-    "id": "proj-2",
-    "slug": "מתחם-נחלת-אשר-נהריה",
-    "name": "מתחם נחלת אשר | נהריה",
-    "city": "נהריה",
-    "address": "מתחם נחלת אשר",
-    "category": "פינוי בינוי",
-    "status": "בבדיקה",
-    "apartments_before": 48,
-    "apartments_after": 180,
-    "short_description": "פרויקט פינוי בינוי בנהריה, הכולל הריסה של בניינים ישנים ובנייה חדשה.",
-    "raw_details_text": null,
-    "images": [
-      "https://bereshitgroup.co.il/wp-content/uploads/2022/05/לוגו-1.png"
-    ],
-    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%a0%d7%97%d7%9c%d7%aa-%d7%90%d7%a9%d7%a8-%d7%a0%d7%94%d7%a8%d7%99%d7%94/"
-  },
-  {
-    "id": "proj-3",
-    "slug": "מתחם-יד-לבנים-חיפה",
-    "name": "מתחם יד לבנים | חיפה",
-    "city": "חיפה",
-    "address": "מתחם יד לבנים",
-    "category": "פינוי בינוי",
-    "status": "בביצוע",
-    "apartments_before": 96,
-    "apartments_after": 350,
-    "short_description": "פרויקט פינוי בינוי בחיפה, באזור יד לבנים.",
-    "raw_details_text": null,
-    "images": [
-      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/חיפה-יד-לבנים.jpg"
-    ],
-    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%99%d7%93-%d7%9c%d7%91%d7%a0%d7%99%d7%9d-%d7%91%d7%97%d7%99%d7%a4%d7%94/"
-  },
-  {
-    "id": "proj-4",
-    "slug": "מתחם-גור-אריה-בית-שמש",
-    "name": "מתחם גור אריה | בית שמש",
-    "city": "בית שמש",
-    "address": "מתחם גור אריה",
-    "category": "פינוי בינוי",
-    "status": "בבדיקה",
-    "apartments_before": 72,
-    "apartments_after": 280,
-    "short_description": "פרויקט פינוי בינוי בבית שמש, באזור גור אריה.",
-    "raw_details_text": null,
-    "images": [
-      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/בית-שמש-1.jpg",
-      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/בית-שמש.jpg"
-    ],
-    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%92%d7%95%d7%a8-%d7%90%d7%a8%d7%99%d7%94-%d7%91%d7%99%d7%aa-%d7%a9%d7%9e%d7%a9/"
-  },
-  {
-    "id": "proj-5",
-    "slug": "מתחם-זולוטוב-בית-שמש",
-    "name": "מתחם זולוטוב | בית שמש",
-    "city": "בית שמש",
-    "address": "מתחם זולוטוב",
-    "category": "פינוי בינוי",
-    "status": "בתכנון",
-    "apartments_before": 54,
-    "apartments_after": 200,
-    "short_description": "פרויקט פינוי בינוי בבית שמש, שכונת זולוטוב.",
-    "raw_details_text": null,
-    "images": [
-      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/זולוטוב.jpg"
-    ],
-    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%96%d7%95%d7%9c%d7%95%d7%98%d7%95%d7%91-%d7%91%d7%99%d7%aa-%d7%a9%d7%9e%d7%a9/"
-  },
-  {
-    "id": "proj-6",
-    "slug": "מתחם-הרצל-מוהליבר-ראשון-לציון",
-    "name": "מתחם הרצל מוהליבר | ראשון לציון",
-    "city": "ראשון לציון",
-    "address": "מתחם הרצל מוהליבר",
-    "category": "פינוי בינוי",
-    "status": "בבדיקה",
-    "apartments_before": 120,
-    "apartments_after": 450,
-    "short_description": "פרויקט פינוי בינוי במרכז ראשון לציון, רחוב הרצל פינת מוהליבר.",
-    "raw_details_text": null,
-    "images": [
-      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/ראשון-לציון.jpg"
-    ],
-    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%94%d7%a8%d7%a6%d7%9c-%d7%9e%d7%95%d7%94%d7%9c%d7%99%d7%91%d7%a8-%d7%91%d7%a8%d7%90%d7%a9%d7%95%d7%9f-%d7%9c%d7%a6%d7%99%d7%95%d7%9f/"
-  },
-  {
-    "id": "proj-7",
-    "slug": "סיני-2-14-מתחם-s61-אור-יהודה",
-    "name": "סיני 2-14 (מתחם S61) | אור יהודה",
-    "city": "אור יהודה",
-    "address": "סיני 2-14 (מתחם S61)",
-    "category": "הריסה ובנייה (38/2)",
-    "status": "בביצוע",
-    "apartments_before": 42,
-    "apartments_after": 168,
-    "short_description": "פרויקט הריסה ובנייה ברחוב סיני, אור יהודה.",
-    "raw_details_text": null,
-    "images": [
-      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/אור-יהודה-s61.jpg"
-    ],
-    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%a1%d7%99%d7%a0%d7%99-2-14-%d7%9e%d7%aa%d7%97%d7%9d-s61-%d7%91%d7%90%d7%95%d7%a8-%d7%99%d7%94%d7%95%d7%93%d7%94/"
-  },
-  {
     "id": "proj-8",
     "slug": "אור-יום-4-10-איילת-השחר-10-12-14-שטרן-13-19-מתחם-m61-אור-יהודה",
-    "name": "אור יום 4-10, איילת השחר 10-12-14, שטרן 13-19 (מתחם M61) | אור יהודה",
+    "name": "אור יום 4-10 , איילת השחר 10-12-14, שטרן 13-19 (מתחם M61) | אור יהודה",
     "city": "אור יהודה",
-    "address": "אור יום 4-10, איילת השחר 10-12-14, שטרן 13-19 (מתחם M61)",
+    "address": "אור יום 4-10 , איילת השחר 10-12-14, שטרן 13-19 (מתחם M61)",
     "category": "פינוי בינוי",
     "status": "בבדיקה",
-    "apartments_before": 156,
-    "apartments_after": 600,
-    "short_description": "פרויקט פינוי בינוי גדול באור יהודה, מתחם M61.",
-    "raw_details_text": null,
+    "apartments_before": null,
+    "apartments_after": null,
+    "short_description": null,
+    "raw_details_text": "1/ 2/ 3/",
     "images": [
       "https://bereshitgroup.co.il/wp-content/uploads/2022/05/לוגו-1.png",
       "https://bereshitgroup.co.il/wp-content/uploads/2022/05/מפה-2.png",
-      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/123.png"
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/123.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/05/לוגו-1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/05/מפה-2-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/123-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
     ],
     "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%90%d7%95%d7%a8-%d7%99%d7%95%d7%9d-4-10-%d7%90%d7%99%d7%99%d7%9c%d7%aa-%d7%94%d7%a9%d7%97%d7%a8-10-12-14-%d7%a9%d7%98%d7%a8%d7%9f-13-19-%d7%9e%d7%aa%d7%97%d7%9d-m61-%d7%90%d7%95%d7%a8-%d7%99/"
   },
@@ -145,16 +29,175 @@
     "city": "עכו",
     "address": "מתחם גולני משה שרת",
     "category": "פינוי בינוי",
-    "status": "בתכנון",
-    "apartments_before": 88,
-    "apartments_after": 320,
-    "short_description": "פרויקט פינוי בינוי בעכו, רחוב גולני פינת משה שרת.",
-    "raw_details_text": null,
+    "status": "בבדיקה",
+    "apartments_before": null,
+    "apartments_after": null,
+    "short_description": null,
+    "raw_details_text": "1/ 2/ 3/",
     "images": [
       "https://bereshitgroup.co.il/wp-content/uploads/2022/08/צילום-מסך-2022-08-19-195731-1.png",
       "https://bereshitgroup.co.il/wp-content/uploads/2022/08/תמונה1-1.png",
-      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/תמונה2-1.png"
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/תמונה2-1.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/צילום-מסך-2022-08-19-195731-1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/תמונה1-1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/תמונה2-1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
     ],
     "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%92%d7%95%d7%9c%d7%a0%d7%99-%d7%9e%d7%a9%d7%94-%d7%a9%d7%a8%d7%aa-%d7%91%d7%a2%d7%9b%d7%95/"
+  },
+  {
+    "id": "proj-4",
+    "slug": "מתחם-גור-אריה-בית-שמש",
+    "name": "מתחם גור אריה | בית שמש",
+    "city": "בית שמש",
+    "address": "מתחם גור אריה",
+    "category": "פינוי בינוי",
+    "status": "בבדיקה",
+    "apartments_before": null,
+    "apartments_after": null,
+    "short_description": null,
+    "raw_details_text": "1/ 2/",
+    "images": [
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/בית-שמש-1.jpg",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/בית-שמש.jpg",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/בית-שמש-1-180x120.jpg",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/בית-שמש-180x120.jpg",
+      "https://bereshitgroup.co.il/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
+    ],
+    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%92%d7%95%d7%a8-%d7%90%d7%a8%d7%99%d7%94-%d7%91%d7%99%d7%aa-%d7%a9%d7%9e%d7%a9/"
+  },
+  {
+    "id": "proj-6",
+    "slug": "מתחם-הרצל-מוהליבר-ראשון-לציון",
+    "name": "מתחם הרצל מוהליבר | ראשון לציון",
+    "city": "ראשון לציון",
+    "address": "מתחם הרצל מוהליבר",
+    "category": "פינוי בינוי",
+    "status": "בבדיקה",
+    "apartments_before": null,
+    "apartments_after": null,
+    "short_description": null,
+    "raw_details_text": "1/ 2/",
+    "images": [
+      "https://bereshitgroup.co.il/wp-content/uploads/2021/12/ללא-שם-1.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2021/12/ללא-שם-2.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2021/12/ללא-שם-1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2021/12/ללא-שם-2-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
+    ],
+    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%94%d7%a8%d7%a6%d7%9c-%d7%9e%d7%95%d7%94%d7%9c%d7%99%d7%91%d7%a8-%d7%a8%d7%90%d7%a9%d7%95%d7%9f-%d7%9c%d7%a6%d7%99%d7%95%d7%9f/"
+  },
+  {
+    "id": "proj-1",
+    "slug": "מתחם-זבוטינסקי-חשמונאים-לוי-לאן-רמת-גן",
+    "name": "מתחם ז'בוטינסקי-חשמונאים-לוי-לאן | רמת גן",
+    "city": "רמת גן",
+    "address": "מתחם ז'בוטינסקי-חשמונאים-לוי-לאן",
+    "category": "פינוי בינוי",
+    "status": "בבדיקה",
+    "apartments_before": null,
+    "apartments_after": null,
+    "short_description": null,
+    "raw_details_text": "1/ 2/ 3/",
+    "images": [
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/1.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/2.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/3.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/2-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/3-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
+    ],
+    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%96%d7%91%d7%95%d7%98%d7%99%d7%a0%d7%a1%d7%a7%d7%99-%d7%97%d7%a9%d7%9e%d7%95%d7%a0%d7%90%d7%99%d7%9d-%d7%9c%d7%95%d7%99-%d7%9c%d7%90%d7%9f-%d7%a8%d7%9e%d7%aa-%d7%92/"
+  },
+  {
+    "id": "proj-5",
+    "slug": "מתחם-זולוטוב-בית-שמש",
+    "name": "מתחם זולוטוב | בית שמש",
+    "city": "בית שמש",
+    "address": "מתחם זולוטוב",
+    "category": "פינוי בינוי",
+    "status": "בבדיקה",
+    "apartments_before": null,
+    "apartments_after": null,
+    "short_description": null,
+    "raw_details_text": "1/ 2/",
+    "images": [
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/גכדככגשדכ.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/גדכגדעדגדגעג.jpg",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/גכדככגשדכ-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/גדכגדעדגדגעג-180x120.jpg",
+      "https://bereshitgroup.co.il/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
+    ],
+    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%96%d7%95%d7%9c%d7%95%d7%98%d7%95%d7%91-%d7%91%d7%99%d7%aa-%d7%a9%d7%9e%d7%a9/"
+  },
+  {
+    "id": "proj-3",
+    "slug": "מתחם-יד-לבנים-חיפה",
+    "name": "מתחם יד לבנים | חיפה",
+    "city": "חיפה",
+    "address": "מתחם יד לבנים",
+    "category": "פינוי בינוי",
+    "status": "בבדיקה",
+    "apartments_before": null,
+    "apartments_after": null,
+    "short_description": null,
+    "raw_details_text": "1/ 2/ 3/",
+    "images": [
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/צילום-מסך-2022-08-26-002236-1.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/דגד-1.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/יד-לבנים-חיפה-1.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/צילום-מסך-2022-08-26-002236-1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/דגד-1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/יד-לבנים-חיפה-1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
+    ],
+    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%99%d7%93-%d7%9c%d7%91%d7%a0%d7%99%d7%9d-%d7%97%d7%99%d7%a4%d7%94/"
+  },
+  {
+    "id": "proj-2",
+    "slug": "מתחם-נחלת-אשר-נהריה",
+    "name": "מתחם נחלת אשר | נהריה",
+    "city": "נהריה",
+    "address": "מתחם נחלת אשר",
+    "category": "פינוי בינוי",
+    "status": "בבדיקה",
+    "apartments_before": null,
+    "apartments_after": null,
+    "short_description": null,
+    "raw_details_text": "1/ 2/",
+    "images": [
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/1-1.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/2-1.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/1-1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/2-1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
+    ],
+    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%9e%d7%aa%d7%97%d7%9d-%d7%96%d7%91%d7%95%d7%98%d7%99%d7%a0%d7%a1%d7%a7%d7%99-%d7%97%d7%a9%d7%9e%d7%95%d7%a0%d7%90%d7%99%d7%9d-%d7%9c%d7%95%d7%99-%d7%9c%d7%90%d7%9f-%d7%a8%d7%9e%d7%aa-%d7%92-2/"
+  },
+  {
+    "id": "proj-7",
+    "slug": "סיני-2-14-מתחם-s61-אור-יהודה",
+    "name": "סיני 2-14 (מתחם S61) | אור יהודה",
+    "city": "אור יהודה",
+    "address": "סיני 2-14 (מתחם S61)",
+    "category": "פינוי בינוי",
+    "status": "בבדיקה",
+    "apartments_before": null,
+    "apartments_after": null,
+    "short_description": "1/ 2/ 3/ 4/.",
+    "raw_details_text": "1/ 2/ 3/ 4/",
+    "images": [
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/05/לוגו-1.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/05/מפה-2.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/סיני-2-14-אור-יהודה.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/גדדג.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/05/לוגו-1-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/05/מפה-2-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/סיני-2-14-אור-יהודה-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/uploads/2022/08/גדדג-180x120.png",
+      "https://bereshitgroup.co.il/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
+    ],
+    "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%a1%d7%99%d7%a0%d7%99-2-14-%d7%9e%d7%aa%d7%97%d7%9d-s61-%d7%90%d7%95%d7%a8-%d7%99%d7%94%d7%95%d7%93%d7%94/"
   }
 ]

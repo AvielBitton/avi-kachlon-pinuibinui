@@ -35,6 +35,19 @@ const BASE_URL = 'https://bereshitgroup.co.il';
 const OUTPUT_PATH = path.join(__dirname, '..', 'src', 'data', 'projects.json');
 
 // Utility functions
+function sanitizeUrl(url: string): string | null {
+  // Convert http:// to https://
+  let sanitized = url.replace(/^http:\/\//i, 'https://');
+  
+  // Validate it's now https
+  if (!sanitized.startsWith('https://')) {
+    console.log(`  ⚠ Dropping non-https URL: ${url}`);
+    return null;
+  }
+  
+  return sanitized;
+}
+
 function slugify(text: string): string {
   return text
     .replace(/[^\u0590-\u05FF\w\s-]/g, '')
@@ -255,7 +268,11 @@ async function scrapeProject(projectInfo: { name: string; link: string }, index:
       seenImages.add(src);
       // Make URL absolute if needed
       const fullUrl = src.startsWith('http') ? src : `${BASE_URL}${src.startsWith('/') ? '' : '/'}${src}`;
-      images.push(fullUrl);
+      // Sanitize URL (convert http to https, drop invalid)
+      const sanitized = sanitizeUrl(fullUrl);
+      if (sanitized) {
+        images.push(sanitized);
+      }
     }
   });
 
@@ -286,7 +303,7 @@ async function scrapeProject(projectInfo: { name: string; link: string }, index:
     short_description: shortDescription,
     raw_details_text: detailsText.substring(0, 2000) || null,
     images: images.slice(0, 10),
-    external_link: projectInfo.link,
+    external_link: sanitizeUrl(projectInfo.link) || projectInfo.link,
   };
 
   console.log(`  ✓ ${title} (${city || 'unknown city'})`);
