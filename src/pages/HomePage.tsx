@@ -45,13 +45,16 @@ function HeroSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link
-            to="/#contact"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-500 text-white rounded-xl font-semibold text-lg transition-all shadow-xl shadow-primary-600/20 hover:shadow-primary-500/30"
+          <button
+            onClick={() => {
+              const el = document.getElementById('contact')
+              if (el) el.scrollIntoView({ behavior: 'smooth' })
+            }}
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-500 text-white rounded-xl font-semibold text-lg transition-all shadow-xl shadow-primary-600/20 hover:shadow-primary-500/30 cursor-pointer"
           >
             <PhoneIcon className="w-5 h-5" />
             לתיאום פגישה
-          </Link>
+          </button>
           <Link
             to="/projects"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-surface-800 hover:bg-surface-700 text-surface-100 rounded-xl font-semibold text-lg transition-colors border border-surface-700"
@@ -105,13 +108,16 @@ function AboutSection() {
             <p className="text-surface-300 text-lg leading-relaxed mb-8">
               המטרה: להבטיח שהדיירים מקבלים את מלוא הזכויות, את הביטחונות הנכונים ואת התמורות הטובות ביותר, תוך שמירה על הוגנות ויעילות.
             </p>
-            <Link
-              to="/#contact"
-              className="inline-flex items-center gap-2 text-primary-400 font-medium hover:text-primary-300 transition-colors"
+            <button
+              onClick={() => {
+                const el = document.getElementById('contact')
+                if (el) el.scrollIntoView({ behavior: 'smooth' })
+              }}
+              className="inline-flex items-center gap-2 text-primary-400 font-medium hover:text-primary-300 transition-colors cursor-pointer"
             >
               בואו נדבר
               <ArrowLeftIcon className="w-4 h-4" />
-            </Link>
+            </button>
           </div>
         </div>
       </div>
