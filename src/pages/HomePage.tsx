@@ -75,17 +75,18 @@ function AboutSection() {
     <section id="about" className="py-24 bg-surface-900/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Image placeholder */}
+          {/* Profile image */}
           <div className="relative order-2 md:order-1">
-            <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-surface-800 to-surface-900 overflow-hidden border border-surface-700">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center text-white text-6xl font-bold shadow-2xl shadow-primary-500/30">
-                  א
-                </div>
-              </div>
-              {/* Decorative corner */}
-              <div className="absolute bottom-0 left-0 w-32 h-32 bg-primary-500/10 blur-2xl" />
+            <div className="aspect-[4/5] rounded-2xl overflow-hidden border border-surface-700 shadow-2xl">
+              <img 
+                src="/avi-kachlon-pinuibinui/avi-profile.jpeg" 
+                alt="עו״ד אבי כחלון"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
+            {/* Decorative corner */}
+            <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-primary-500/20 rounded-full blur-2xl -z-10" />
+            <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary-600/10 rounded-full blur-2xl -z-10" />
           </div>
 
           {/* Content */}
@@ -283,8 +284,8 @@ function ProcessSection() {
 
 function ContactSection() {
   const [copied, setCopied] = useState(false)
-  const phoneNumber = '050-123-4567'
-  const email = 'avi@example.com'
+  const phoneNumber = '050-279-1374'
+  const email = 'Avikachlon24@gmail.com'
 
   const copyPhone = () => {
     navigator.clipboard.writeText(phoneNumber.replace(/-/g, ''))

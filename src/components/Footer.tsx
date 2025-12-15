@@ -90,14 +90,14 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-surface-400">
                 <PhoneIcon className="w-4 h-4 text-primary-500" />
-                <a href="tel:+972501234567" className="hover:text-primary-400 transition-colors" dir="ltr">
-                  050-123-4567
+                <a href="tel:+972502791374" className="hover:text-primary-400 transition-colors" dir="ltr">
+                  050-279-1374
                 </a>
               </li>
               <li className="flex items-center gap-2 text-surface-400">
                 <MailIcon className="w-4 h-4 text-primary-500" />
-                <a href="mailto:avi@example.com" className="hover:text-primary-400 transition-colors">
-                  avi@example.com
+                <a href="mailto:Avikachlon24@gmail.com" className="hover:text-primary-400 transition-colors">
+                  Avikachlon24@gmail.com
                 </a>
               </li>
             </ul>
