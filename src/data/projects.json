@@ -175,7 +175,7 @@
     "external_link": "https://bereshitgroup.co.il/פרוייקטים/%d7%a9%d7%99%d7%a4%d7%a8-13-%d7%a4%d7%aa%d7%97-%d7%aa%d7%a7%d7%95%d7%95%d7%94/"
   },
   {
-    "id": "proj-10",
+    "id": "proj-manual-1",
     "slug": "הרצל-סוקולוב-ראשון-לציון",
     "name": "הרצל סוקולוב | ראשון לציון",
     "city": "ראשון לציון",
@@ -187,6 +187,6 @@
     "short_description": "פרויקט פינוי בינוי בראשון לציון.",
     "raw_details_text": null,
     "images": [],
-    "external_link": null
+    "external_link": ""
   }
 ]

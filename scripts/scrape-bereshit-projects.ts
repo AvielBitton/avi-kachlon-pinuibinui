@@ -409,6 +409,25 @@ async function main() {
     // Sort by name
     projects.sort((a, b) => a.name.localeCompare(b.name, 'he'));
 
+    // Add manual fallback project at the end (not on Bereshit website)
+    const manualProject: Project = {
+      id: 'proj-manual-1',
+      slug: 'הרצל-סוקולוב-ראשון-לציון',
+      name: 'הרצל סוקולוב | ראשון לציון',
+      city: 'ראשון לציון',
+      address: 'הרצל סוקולוב',
+      category: 'פינוי בינוי',
+      status: 'בבדיקה',
+      apartments_before: null,
+      apartments_after: null,
+      short_description: 'פרויקט פינוי בינוי בראשון לציון.',
+      raw_details_text: null,
+      images: [],
+      external_link: '',
+    };
+    projects.push(manualProject);
+    console.log('  + Added manual project: הרצל סוקולוב | ראשון לציון');
+
     // Write output
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(projects, null, 2), 'utf-8');
 
