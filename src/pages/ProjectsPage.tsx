@@ -38,8 +38,14 @@ export default function ProjectsPage() {
       result = result.filter((p) => p.category === selectedCategory)
     }
 
-    // Sort
+    // Sort (keep "הרצל סוקולוב" always last)
     result.sort((a, b) => {
+      // Keep manual project at the end
+      const isManualA = a.id === 'proj-manual-1'
+      const isManualB = b.id === 'proj-manual-1'
+      if (isManualA && !isManualB) return 1
+      if (!isManualA && isManualB) return -1
+
       if (sortBy === 'name') {
         return a.name.localeCompare(b.name, 'he')
       } else if (sortBy === 'city') {
