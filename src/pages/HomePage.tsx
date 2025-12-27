@@ -79,8 +79,8 @@ function AboutSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Profile image */}
-          <div className="relative order-2 md:order-1">
-<div className="aspect-[3/4] rounded-2xl overflow-hidden border border-surface-700 shadow-2xl">
+          <div className="relative order-2 md:order-1 flex justify-center">
+<div className="aspect-[4/5] max-w-sm rounded-2xl overflow-hidden border border-surface-700 shadow-2xl">
               <img 
                 src="/avi-kachlon-pinuibinui/avi-profile.png"
                 alt="עו״ד אבי כחלון"
