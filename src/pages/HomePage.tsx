@@ -84,7 +84,7 @@ function AboutSection() {
               <img 
                 src="/avi-kachlon-pinuibinui/avi-profile.jpeg" 
                 alt="עו״ד אבי כחלון"
-                className="w-full h-full object-cover object-top scale-150 origin-top"
+                className="w-full h-full object-cover scale-[1.8] object-[center_20%]"
               />
             </div>
             {/* Decorative corner */}
