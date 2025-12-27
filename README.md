@@ -155,6 +155,9 @@ https://YOUR_USERNAME.github.io/avi-kachlon-pinuibinui/
 - `src/pages/HomePage.tsx` - סקשן Contact
 - `src/components/Footer.tsx`
 
+### טופס יצירת קשר
+הטופס משתמש ב-[Formspree](https://formspree.io) לקבלת הודעות. כדי לעדכן את כתובת הטופס, שנו את ה-`action` ב-`src/pages/HomePage.tsx`.
+
 ### תוכן
 כל התוכן בעברית נמצא ב-`src/pages/HomePage.tsx`.
 
