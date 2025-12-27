@@ -350,9 +350,8 @@ function ContactSection() {
 
         {/* Contact form */}
         <form
-          action={`mailto:${email}`}
-          method="GET"
-          encType="text/plain"
+          action="https://formspree.io/f/mzdbrweq"
+          method="POST"
           className="max-w-xl mx-auto"
         >
           <div className="space-y-4">
@@ -389,7 +388,7 @@ function ContactSection() {
               </label>
               <textarea
                 id="message"
-                name="body"
+                name="message"
                 rows={4}
                 className="w-full px-4 py-3 bg-surface-800 border border-surface-700 rounded-xl text-surface-100 placeholder-surface-500 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors resize-none"
                 placeholder="כתבו את הודעתכם..."
