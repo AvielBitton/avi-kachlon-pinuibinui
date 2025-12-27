@@ -383,8 +383,22 @@ function ContactSection() {
               />
             </div>
             <div>
+              <label htmlFor="email" className="block text-sm font-medium text-surface-300 mb-2">
+                אימייל
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                dir="ltr"
+                className="w-full px-4 py-3 bg-surface-800 border border-surface-700 rounded-xl text-surface-100 placeholder-surface-500 focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors text-left"
+                placeholder="example@email.com"
+              />
+            </div>
+            <div>
               <label htmlFor="message" className="block text-sm font-medium text-surface-300 mb-2">
-                הודעה
+                הודעה <span className="text-surface-500">(אופציונלי)</span>
               </label>
               <textarea
                 id="message"
