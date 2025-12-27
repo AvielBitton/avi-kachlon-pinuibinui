@@ -80,11 +80,11 @@ function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Profile image */}
           <div className="relative order-2 md:order-1">
-            <div className="aspect-[3/4] rounded-2xl overflow-hidden border border-surface-700 shadow-2xl">
+<div className="aspect-[3/4] rounded-2xl overflow-hidden border border-surface-700 shadow-2xl">
               <img 
-                src="/avi-kachlon-pinuibinui/avi-profile.jpeg" 
+                src="/avi-kachlon-pinuibinui/avi-profile.png"
                 alt="עו״ד אבי כחלון"
-                className="w-full h-full object-cover scale-[1.8] object-[center_20%]"
+                className="w-full h-full object-cover"
               />
             </div>
             {/* Decorative corner */}
