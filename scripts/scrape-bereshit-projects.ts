@@ -34,6 +34,26 @@ interface Project {
 const BASE_URL = 'https://bereshitgroup.co.il';
 const OUTPUT_PATH = path.join(__dirname, '..', 'src', 'data', 'projects.json');
 
+// Whitelist of projects to include (only these will be shown)
+const ALLOWED_PROJECTS = [
+  'הרצל מוהליבר',          // מתחם הרצל מוהליבר | ראשון לציון
+  'הרצל 102',              // מתחם הרצל 102 | ראשון לציון
+  'שיפר 13',               // שיפר 13 | פתח תקווה
+  'קצנלסון 1-3-5',         // קצנלסון 1-3-5 | נתניה
+  'השקמה 40',              // השקמה 40 | בת ים
+  'וינגייט 6-8',           // וינגייט 6-8 | פתח תקווה
+  'מיכאל לוין 2-4-6',      // מיכאל לוין 2-4-6 | ראשון לציון
+  'פרופסור שור 22-30',     // מתחם פרופסור שור 22-30 | פתח תקווה
+  'פרץ נפתלי 17-25',       // מתחם פרץ נפתלי 17-25 | פתח תקווה
+];
+
+function isAllowedProject(name: string): boolean {
+  const normalizedName = name.toLowerCase();
+  return ALLOWED_PROJECTS.some(keyword => 
+    normalizedName.includes(keyword.toLowerCase())
+  );
+}
+
 // Utility functions
 function sanitizeUrl(url: string): string | null {
   // Convert http:// to https://
@@ -166,43 +186,44 @@ async function fetchWithRetry(url: string, retries = 2): Promise<string | null> 
   return null;
 }
 
-async function getProjectLinksFromHomepage(): Promise<{ name: string; link: string }[]> {
-  console.log('Fetching homepage...');
-  const html = await fetchWithRetry(BASE_URL);
+async function getProjectLinksFromArchive(): Promise<{ name: string; link: string }[]> {
+  const archiveUrl = `${BASE_URL}/פרוייקטים/`;
+  console.log('Fetching projects archive page...');
+  const html = await fetchWithRetry(archiveUrl);
   if (!html) {
-    console.log('Failed to fetch homepage');
+    console.log('Failed to fetch projects archive');
     return [];
   }
 
   const $ = cheerio.load(html);
   const projects: { name: string; link: string }[] = [];
 
-  // Find project headings with links - format: "מתחם XXX | עיר"
+  // Find project headings with links - format: "מתחם XXX | עיר" or "שם | עיר"
   $('h3 a, h4 a, h2 a').each((_, el) => {
     const name = $(el).text().trim();
     const href = $(el).attr('href');
     
-    // Check if it looks like a project name (contains "מתחם" or has city format)
-    if (href && name && (name.includes('מתחם') || name.includes('|'))) {
+    // Check if it looks like a project name (contains "|" separator)
+    if (href && name && name.includes('|') && href.includes('פרוייקטים')) {
       if (!projects.some(p => p.link === href)) {
         projects.push({ name, link: href });
       }
     }
   });
 
-  // Also check for project cards/elements
-  $('a').each((_, el) => {
+  // Also check for article links with project-like names
+  $('article a').each((_, el) => {
     const href = $(el).attr('href');
     const text = $(el).text().trim();
     
-    if (href && href.includes('bereshitgroup.co.il') && text.includes('מתחם')) {
+    if (href && href.includes('פרוייקטים') && text.includes('|') && text.length > 5) {
       if (!projects.some(p => p.link === href)) {
         projects.push({ name: text, link: href });
       }
     }
   });
 
-  console.log(`Found ${projects.length} projects on homepage`);
+  console.log(`Found ${projects.length} projects on archive page`);
   return projects;
 }
 
@@ -310,18 +331,18 @@ async function scrapeProject(projectInfo: { name: string; link: string }, index:
   return project;
 }
 
-// Sample data based on known projects from homepage
+// Sample data based on allowed projects
 function getSampleProjects(): Project[] {
   const sampleData = [
-    { name: "מתחם ז'בוטינסקי-חשמונאים-לוי-לאן | רמת גן", city: "רמת גן" },
-    { name: "מתחם נחלת אשר | נהריה", city: "נהריה" },
-    { name: "מתחם יד לבנים | חיפה", city: "חיפה" },
-    { name: "מתחם גור אריה | בית שמש", city: "בית שמש" },
-    { name: "מתחם זולוטוב | בית שמש", city: "בית שמש" },
     { name: "מתחם הרצל מוהליבר | ראשון לציון", city: "ראשון לציון" },
-    { name: "סיני 2-14 (מתחם S61) | אור יהודה", city: "אור יהודה" },
-    { name: "אור יום 4-10, איילת השחר 10-12-14, שטרן 13-19 (מתחם M61) | אור יהודה", city: "אור יהודה" },
-    { name: "מתחם גולני משה שרת | עכו", city: "עכו" },
+    { name: "מתחם הרצל 102 | ראשון לציון", city: "ראשון לציון" },
+    { name: "שיפר 13 | פתח תקווה", city: "פתח תקווה" },
+    { name: "קצנלסון 1-3-5 | נתניה", city: "נתניה" },
+    { name: "השקמה 40 | בת ים", city: "בת ים" },
+    { name: "וינגייט 6-8 | פתח תקווה", city: "פתח תקווה" },
+    { name: "מיכאל לוין 2-4-6 | ראשון לציון", city: "ראשון לציון" },
+    { name: "מתחם פרופסור שור 22-30 | פתח תקווה", city: "פתח תקווה" },
+    { name: "מתחם פרץ נפתלי 17-25 | פתח תקווה", city: "פתח תקווה" },
   ];
 
   return sampleData.map((item, index) => ({
@@ -348,10 +369,14 @@ async function main() {
   console.log();
 
   try {
-    const projectInfos = await getProjectLinksFromHomepage();
+    const allProjectInfos = await getProjectLinksFromArchive();
+    
+    // Filter to only allowed projects
+    const projectInfos = allProjectInfos.filter(p => isAllowedProject(p.name));
+    console.log(`Filtered to ${projectInfos.length} allowed projects (from ${allProjectInfos.length} total)`);
     
     if (projectInfos.length === 0) {
-      console.log('No project links found. Using sample data...');
+      console.log('No matching project links found. Using sample data...');
       const sampleProjects = getSampleProjects();
       fs.writeFileSync(OUTPUT_PATH, JSON.stringify(sampleProjects, null, 2), 'utf-8');
       console.log(`Wrote ${sampleProjects.length} sample projects to ${OUTPUT_PATH}`);
